@@ -3,7 +3,6 @@ module app.jlpt.mezashi {
     requires javafx.fxml;
     requires java.sql;
 
-
     opens app.jlpt.mezashi to javafx.fxml;
     exports app.jlpt.mezashi;
     exports app.jlpt.mezashi.controller;

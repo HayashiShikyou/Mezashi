@@ -3,7 +3,6 @@ package app.jlpt.mezashi.controller;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
@@ -20,7 +19,7 @@ public class InputTestCtrl implements Initializable {
     private TextField txfInput;
 
     @FXML
-    void inputData(ActionEvent event) {
+    void inputData() {
         try {
             InputDB.saveBook(txfInput.getText());
             txaConsole.setText(InputDB.getAllBooks());
@@ -30,12 +29,12 @@ public class InputTestCtrl implements Initializable {
     }
 
     @FXML
-    void showAllBooks(ActionEvent event) {
+    void showAllBooks() {
         try {
             txaConsole.setText(InputDB.getAllBooks());
         } catch (Exception e) {
             new Alert(Alert.AlertType.ERROR);
-;        }
+        }
     }
 
     @Override

@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Mon Dec 23 17:51:59 MMT 2024:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0193-f340-a154-000004d545a0 
-on database directory /home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ_20241217/Mezashi/derbyDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4f023edb 
+Mon Jan 06 10:46:02 MMT 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0194-39d3-ae3c-000004e4d9c0 
+on database directory /home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ_20241223/Mezashi/derbyDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4f023edb 
 Loaded from file:/home/tzo/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=22+36-2370
-user.dir=/home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ_20241217/Mezashi
+user.dir=/home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ_20241223/Mezashi
 os.name=Linux
 os.arch=amd64
 os.version=6.8.0-50-generic
